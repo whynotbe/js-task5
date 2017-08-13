@@ -1,0 +1,110 @@
+
+.body{
+    margin:0 auto;
+    max-width:1920px;
+}
+
+.main{
+    width:100%;
+    max-width:1920px;
+    background-image:url(resources/background.png);
+    height:62.5rem;
+    padding-top:1px;
+}
+.box{
+    width:33.625rem;
+    height:24.25rem;
+    background-color:rgb(208,211,217);
+    margin:19rem auto;
+    padding-top:1px;
+}
+.title{
+    font-size:2rem;
+    color:rgb(52,175,241);
+     margin-top:1.75rem;
+    width:33.625rem;
+    text-align:center;
+    font-family:"Microsoft YaHei UI",serif;
+
+}
+
+.username{
+    height:3.75rem;
+    width:27.25rem;
+    margin:1.75rem auto;
+    background-color:#ffffff;
+}
+.password{
+    height:3.75rem;
+    width:27.25rem;
+    margin:1rem auto;
+    margin-bottom:0;
+    background-color:#ffffff;
+
+}
+.icon1{
+    width:1.125rem;
+    height:1.0625rem;
+    background-image:url(resources/icon1.png);
+    margin-top:1.25rem;
+    margin-left:1.75rem;
+    margin-right:1rem;
+    float:left;
+}
+.icon2{
+    width:1.125rem;
+    height:1.0625rem;
+    background-image:url(resources/icon2.png);
+    margin-top:1.25rem;
+    margin-left:1.75rem;
+    margin-right:1rem;
+    float:left;
+}
+.line{
+    margin-top:1.25rem;
+    height:1.25rem;
+    width:1px;
+    background-color:rgb(232,232,232);
+    float:left;
+}
+input{
+    font-size:1.625rem;
+    color:rgb(208,208,208);
+    float:left;
+    border:none;
+    margin-left:1.25rem;
+    height:3.65rem;
+    width:22rem;
+    line-height:3.65rem;
+    font-family:"Microsoft YaHei UI",serif;
+}
+.submit{
+    width:27.25rem;
+    height:3.75rem;
+    background-color:rgb(3,169,244);
+    text-align:center;
+    line-height:3.75rem;
+    color:#ffffff;
+    font-size:1.75rem;
+    font-family: "Microsoft YaHei UI Light", serif;
+    margin-top:1rem;
+    margin-left:auto;
+    margin-right:auto;
+}
+#result{
+    color:red;
+}
+.result{
+
+    line-height:24px;
+    font-size:24px;
+    margin-top:1.5rem;
+    margin-left:auto;
+    margin-right:auto;
+    height:16px;
+    width:27.25rem;
+
+}
+.submit{
+    cursor:pointer;
+}
